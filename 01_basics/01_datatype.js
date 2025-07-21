@@ -18,6 +18,7 @@ let score = "33abc"
 console.log(typeof score);
 
 let valueNumber=Number(score)
+console.log(valueNumber);
 console.log(typeof valueNumber);
 
 

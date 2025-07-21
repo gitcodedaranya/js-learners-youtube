@@ -30,8 +30,8 @@ let valueNumber=Number(score)
 //console.log("typeof: "+typeof valueNumber);
 
 
-let IsLoggedIn = 1;
-let BooleanIsLoggedIn = Boolean(IsLoggedIn)
+let IsLoggedInV = 1;
+let BooleanIsLoggedIn = Boolean(IsLoggedInV)
 /console.log(BooleanIsLoggedIn);
 
 

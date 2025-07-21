@@ -30,9 +30,18 @@ let valueNumber=Number(score)
 //console.log("typeof: "+typeof valueNumber);
 
 
-let IsLoggedInV = 1;
+//let IsLoggedInV = 1;
+//let IsLoggedInV = "";
+let IsLoggedInV = "Ashok";
 let BooleanIsLoggedIn = Boolean(IsLoggedInV)
-/console.log(BooleanIsLoggedIn);
+//console.log(BooleanIsLoggedIn);
+// 1 => true; 0 => false;
+// "" => false; "Ashok"=> true
+
+let someNumber = 33
+let StringNumber = String(someNumber)
+console.log(StringNumber)
+console.log("typeof: "+typeof StringNumber);
 
 
 //A JavaScript variable can hold any type of data. // from W3schools

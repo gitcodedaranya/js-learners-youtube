@@ -14,6 +14,7 @@ console.log(typeof undefined) //undefined
 // --------
 let score = 33;
 let score = "33";
+console.log(typeof score)
 
 //A JavaScript variable can hold any type of data. // from W3schools
 

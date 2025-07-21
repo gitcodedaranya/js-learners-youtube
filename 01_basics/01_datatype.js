@@ -40,11 +40,16 @@ let BooleanIsLoggedIn = Boolean(IsLoggedInV)
 
 let someNumber = 33
 let StringNumber = String(someNumber)
-console.log(StringNumber)
-console.log("typeof: "+typeof StringNumber);
+// console.log(StringNumber)
+// console.log("typeof: "+typeof StringNumber);
 
+// ********************* Operations *********************
+let value=3
+let negetiveVal = -value
+console.log(negetiveVal)
 
-//A JavaScript variable can hold any type of data. // from W3schools
+// ********************* from W3schools *********************
+//A JavaScript variable can hold any type of data. 
 
 let x = "16" + "Volvo"; //When adding a number and a string, JavaScript will treat the number as a string.
 console.log(x) // 16Volvo

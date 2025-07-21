@@ -8,18 +8,31 @@ let IsLoggedIn = false //boolean datatype
 // null => Standalone value
 // undefined =>
 // symbol => unique
-console.log(typeof null) //object
-console.log(typeof undefined) //undefined
+//console.log(typeof null) //object
+//console.log(typeof undefined) //undefined
 
 // --------
 //let score = 33;
 //let score = "33";
-let score = "33abc"
-console.log(typeof score);
+//let score = "33abc"
+//let score = null
+//let score = undefined
+//let score = true
+let score = "ashoke"
+
+//console.log(typeof score);
 
 let valueNumber=Number(score)
-console.log(valueNumber);
-console.log(typeof valueNumber);
+//console.log("afterNumberPrint: "+valueNumber); // Nan if let score = "33abc"
+// "33" => 33
+// "33abc" ==> NaN
+// true => 1; false =>0;
+//console.log("typeof: "+typeof valueNumber);
+
+
+let IsLoggedIn = 1;
+let BooleanIsLoggedIn = Boolean(IsLoggedIn)
+/console.log(BooleanIsLoggedIn);
 
 
 //A JavaScript variable can hold any type of data. // from W3schools

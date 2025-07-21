@@ -46,7 +46,15 @@ let StringNumber = String(someNumber)
 // ********************* Operations *********************
 let value=3
 let negetiveVal = -value
-console.log(negetiveVal)
+//console.log(negetiveVal)
+
+let str1 = "Hello"
+let str2 =" Ashoke"
+let str3 = str1+str2 
+//console.log(str3)
+//console.log((3+4) * 5 % 3) //2
+
+//Link to study : https://tc39.es/ecma262/multipage/abstract-operations#sec-type-conversion
 
 // ********************* from W3schools *********************
 //A JavaScript variable can hold any type of data. 

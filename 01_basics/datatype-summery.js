@@ -39,4 +39,4 @@ let userOne = {
 let userTwo = userOne;
 userTwo.email = "chanetest@test.com";
 console.log(userOne.email)
-console.log(usertwo.email)
+console.log(userTwo.email)

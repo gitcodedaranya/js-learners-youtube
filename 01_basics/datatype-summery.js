@@ -27,3 +27,16 @@ console.log(typeof outsidetemp) //object
 console.log(typeof myFunction)  // function
 
 // Link: https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++
+// Stack (Primitive), Heap (non-Primitive)
+
+let userOne = {
+    email:"test@test.com",
+    occupation:"student"
+}
+let userTwo = userOne;
+userTwo.email = "chanetest@test.com";
+console.log(userOne.email)
+console.log(usertwo.email)
